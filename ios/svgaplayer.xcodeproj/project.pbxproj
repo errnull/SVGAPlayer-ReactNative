@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CB667F1EF3A1F400DAA382 /* SVGAPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66671EF3A1F400DAA382 /* SVGAPlayerManager.m */; };
+		90CB66801EF3A1F400DAA382 /* SVGA.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB666A1EF3A1F400DAA382 /* SVGA.m */; };
+		90CB66811EF3A1F400DAA382 /* SVGABezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB666C1EF3A1F400DAA382 /* SVGABezierPath.m */; };
+		90CB66821EF3A1F400DAA382 /* SVGABitmapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB666E1EF3A1F400DAA382 /* SVGABitmapLayer.m */; };
+		90CB66831EF3A1F400DAA382 /* SVGAContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66701EF3A1F400DAA382 /* SVGAContentLayer.m */; };
+		90CB66841EF3A1F400DAA382 /* SVGAExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66721EF3A1F400DAA382 /* SVGAExporter.m */; };
+		90CB66851EF3A1F400DAA382 /* SVGAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66741EF3A1F400DAA382 /* SVGAParser.m */; };
+		90CB66861EF3A1F400DAA382 /* SVGAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66761EF3A1F400DAA382 /* SVGAPlayer.m */; };
+		90CB66871EF3A1F400DAA382 /* SVGAVectorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB66781EF3A1F400DAA382 /* SVGAVectorLayer.m */; };
+		90CB66881EF3A1F400DAA382 /* SVGAVideoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB667A1EF3A1F400DAA382 /* SVGAVideoEntity.m */; };
+		90CB66891EF3A1F400DAA382 /* SVGAVideoSpriteEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB667C1EF3A1F400DAA382 /* SVGAVideoSpriteEntity.m */; };
+		90CB668A1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB667E1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90CB665A1EF3A19100DAA382 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90CB665C1EF3A19100DAA382 /* libsvgaplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsvgaplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CB66661EF3A1F400DAA382 /* SVGAPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAPlayerManager.h; sourceTree = "<group>"; };
+		90CB66671EF3A1F400DAA382 /* SVGAPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAPlayerManager.m; sourceTree = "<group>"; };
+		90CB66691EF3A1F400DAA382 /* SVGA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGA.h; sourceTree = "<group>"; };
+		90CB666A1EF3A1F400DAA382 /* SVGA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGA.m; sourceTree = "<group>"; };
+		90CB666B1EF3A1F400DAA382 /* SVGABezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGABezierPath.h; sourceTree = "<group>"; };
+		90CB666C1EF3A1F400DAA382 /* SVGABezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGABezierPath.m; sourceTree = "<group>"; };
+		90CB666D1EF3A1F400DAA382 /* SVGABitmapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGABitmapLayer.h; sourceTree = "<group>"; };
+		90CB666E1EF3A1F400DAA382 /* SVGABitmapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGABitmapLayer.m; sourceTree = "<group>"; };
+		90CB666F1EF3A1F400DAA382 /* SVGAContentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAContentLayer.h; sourceTree = "<group>"; };
+		90CB66701EF3A1F400DAA382 /* SVGAContentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAContentLayer.m; sourceTree = "<group>"; };
+		90CB66711EF3A1F400DAA382 /* SVGAExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAExporter.h; sourceTree = "<group>"; };
+		90CB66721EF3A1F400DAA382 /* SVGAExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAExporter.m; sourceTree = "<group>"; };
+		90CB66731EF3A1F400DAA382 /* SVGAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAParser.h; sourceTree = "<group>"; };
+		90CB66741EF3A1F400DAA382 /* SVGAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAParser.m; sourceTree = "<group>"; };
+		90CB66751EF3A1F400DAA382 /* SVGAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAPlayer.h; sourceTree = "<group>"; };
+		90CB66761EF3A1F400DAA382 /* SVGAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAPlayer.m; sourceTree = "<group>"; };
+		90CB66771EF3A1F400DAA382 /* SVGAVectorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAVectorLayer.h; sourceTree = "<group>"; };
+		90CB66781EF3A1F400DAA382 /* SVGAVectorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAVectorLayer.m; sourceTree = "<group>"; };
+		90CB66791EF3A1F400DAA382 /* SVGAVideoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAVideoEntity.h; sourceTree = "<group>"; };
+		90CB667A1EF3A1F400DAA382 /* SVGAVideoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAVideoEntity.m; sourceTree = "<group>"; };
+		90CB667B1EF3A1F400DAA382 /* SVGAVideoSpriteEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAVideoSpriteEntity.h; sourceTree = "<group>"; };
+		90CB667C1EF3A1F400DAA382 /* SVGAVideoSpriteEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAVideoSpriteEntity.m; sourceTree = "<group>"; };
+		90CB667D1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAVideoSpriteFrameEntity.h; sourceTree = "<group>"; };
+		90CB667E1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAVideoSpriteFrameEntity.m; sourceTree = "<group>"; };
+		90CB66B61EF3A2EA00DAA382 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		90CB66B71EF3A2EA00DAA382 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CB66591EF3A19100DAA382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CB65FB1EF3A01700DAA382 = {
+			isa = PBXGroup;
+			children = (
+				90CB66651EF3A1F400DAA382 /* React */,
+				90CB66681EF3A1F400DAA382 /* Source */,
+				90CB66051EF3A01700DAA382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90CB66051EF3A01700DAA382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CB665C1EF3A19100DAA382 /* libsvgaplayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CB66651EF3A1F400DAA382 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				90CB66B61EF3A2EA00DAA382 /* SSZipArchive.h */,
+				90CB66B71EF3A2EA00DAA382 /* SSZipCommon.h */,
+				90CB66661EF3A1F400DAA382 /* SVGAPlayerManager.h */,
+				90CB66671EF3A1F400DAA382 /* SVGAPlayerManager.m */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		90CB66681EF3A1F400DAA382 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90CB66691EF3A1F400DAA382 /* SVGA.h */,
+				90CB666A1EF3A1F400DAA382 /* SVGA.m */,
+				90CB666B1EF3A1F400DAA382 /* SVGABezierPath.h */,
+				90CB666C1EF3A1F400DAA382 /* SVGABezierPath.m */,
+				90CB666D1EF3A1F400DAA382 /* SVGABitmapLayer.h */,
+				90CB666E1EF3A1F400DAA382 /* SVGABitmapLayer.m */,
+				90CB666F1EF3A1F400DAA382 /* SVGAContentLayer.h */,
+				90CB66701EF3A1F400DAA382 /* SVGAContentLayer.m */,
+				90CB66711EF3A1F400DAA382 /* SVGAExporter.h */,
+				90CB66721EF3A1F400DAA382 /* SVGAExporter.m */,
+				90CB66731EF3A1F400DAA382 /* SVGAParser.h */,
+				90CB66741EF3A1F400DAA382 /* SVGAParser.m */,
+				90CB66751EF3A1F400DAA382 /* SVGAPlayer.h */,
+				90CB66761EF3A1F400DAA382 /* SVGAPlayer.m */,
+				90CB66771EF3A1F400DAA382 /* SVGAVectorLayer.h */,
+				90CB66781EF3A1F400DAA382 /* SVGAVectorLayer.m */,
+				90CB66791EF3A1F400DAA382 /* SVGAVideoEntity.h */,
+				90CB667A1EF3A1F400DAA382 /* SVGAVideoEntity.m */,
+				90CB667B1EF3A1F400DAA382 /* SVGAVideoSpriteEntity.h */,
+				90CB667C1EF3A1F400DAA382 /* SVGAVideoSpriteEntity.m */,
+				90CB667D1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.h */,
+				90CB667E1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90CB665B1EF3A19100DAA382 /* svgaplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CB66621EF3A19100DAA382 /* Build configuration list for PBXNativeTarget "svgaplayer" */;
+			buildPhases = (
+				90CB66581EF3A19100DAA382 /* Sources */,
+				90CB66591EF3A19100DAA382 /* Frameworks */,
+				90CB665A1EF3A19100DAA382 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svgaplayer;
+			productName = svgaplayer;
+			productReference = 90CB665C1EF3A19100DAA382 /* libsvgaplayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CB65FC1EF3A01700DAA382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "UED Center, YY Inc.";
+				TargetAttributes = {
+					90CB665B1EF3A19100DAA382 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8M2FQ87SLP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90CB65FF1EF3A01700DAA382 /* Build configuration list for PBXProject "svgaplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90CB65FB1EF3A01700DAA382;
+			productRefGroup = 90CB66051EF3A01700DAA382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CB665B1EF3A19100DAA382 /* svgaplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CB66581EF3A19100DAA382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CB66831EF3A1F400DAA382 /* SVGAContentLayer.m in Sources */,
+				90CB66881EF3A1F400DAA382 /* SVGAVideoEntity.m in Sources */,
+				90CB668A1EF3A1F400DAA382 /* SVGAVideoSpriteFrameEntity.m in Sources */,
+				90CB66801EF3A1F400DAA382 /* SVGA.m in Sources */,
+				90CB66851EF3A1F400DAA382 /* SVGAParser.m in Sources */,
+				90CB66891EF3A1F400DAA382 /* SVGAVideoSpriteEntity.m in Sources */,
+				90CB667F1EF3A1F400DAA382 /* SVGAPlayerManager.m in Sources */,
+				90CB66841EF3A1F400DAA382 /* SVGAExporter.m in Sources */,
+				90CB66861EF3A1F400DAA382 /* SVGAPlayer.m in Sources */,
+				90CB66871EF3A1F400DAA382 /* SVGAVectorLayer.m in Sources */,
+				90CB66811EF3A1F400DAA382 /* SVGABezierPath.m in Sources */,
+				90CB66821EF3A1F400DAA382 /* SVGABitmapLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90CB66191EF3A01700DAA382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90CB661A1EF3A01700DAA382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CB66631EF3A19100DAA382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8M2FQ87SLP;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		90CB66641EF3A19100DAA382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8M2FQ87SLP;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CB65FF1EF3A01700DAA382 /* Build configuration list for PBXProject "svgaplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CB66191EF3A01700DAA382 /* Debug */,
+				90CB661A1EF3A01700DAA382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CB66621EF3A19100DAA382 /* Build configuration list for PBXNativeTarget "svgaplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CB66631EF3A19100DAA382 /* Debug */,
+				90CB66641EF3A19100DAA382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CB65FC1EF3A01700DAA382 /* Project object */;
+}

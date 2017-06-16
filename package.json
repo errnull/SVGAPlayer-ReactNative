@@ -1,0 +1,19 @@
+{
+  "name": "svgaplayer",
+  "version": "1.2.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyued/SVGAPlayer-ReactNative.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyued/SVGAPlayer-ReactNative/issues"
+  },
+  "homepage": "https://github.com/yyued/SVGAPlayer-ReactNative#readme"
+}
