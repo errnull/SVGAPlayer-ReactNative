@@ -63,7 +63,7 @@ npm install svgaplayer --save
 在 Podfile 文件添加以下依赖
 
 ```
-pod 'SVGAPlayer/React'
+pod 'SVGAPlayer', :podspec => 'https://raw.githubusercontent.com/yyued/SVGAPlayer-iOS/1.1.2/SVGAPlayer-React.podspec'
 ```
 
 ```pod install``` 即可
